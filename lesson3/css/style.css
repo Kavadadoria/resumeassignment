@@ -1,0 +1,75 @@
+color pallate
+cambridge-blue: #b9d8c2ff;
+--light-blue: #9ac2c9ff;
+--cadet-grey: #8aa1b1ff;
+--rifle-green: #4a5043ff;
+--sunglow: #ffcb47ff;
+
+/*Global styles
+-------------------------------*/
+body {
+    color: #e8985eff;
+    
+}
+main {
+    font-family: 'Abel', sans-serif;
+}
+img {
+    width: 300px;
+}
+a {
+    color: #ffcb47ff;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+/*Profile
+-------------------------------*/
+header {
+    background: #b9d8c2ff;
+    color: #4a5043f;
+}
+header h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 450%;
+    color: darkblue;
+}
+
+/*Project
+-------------------------------*/
+.project {
+    background: #9ac2c9ff;
+}
+.project a {
+    color: #4a5043ff;
+}
+.project .btn {
+    color: #ffcb47ff;
+    background: #4a5043ff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.project .btn:hover {
+    background: rgba(47, 48, 97, 80%);
+}
+
+/*Work Experience
+-------------------------------*/
+.work-experience {
+    background: #8aa1b1ff;
+}
+
+/*Education
+-------------------------------*/
+
+
+/*Contact Info
+-------------------------------*/
+footer {
+    background: #4a5043ff;
+    color: #9ac2c9ff;
+
+}
