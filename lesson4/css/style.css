@@ -1,0 +1,109 @@
+color pallate
+cambridge-blue: #b9d8c2ff;
+--light-blue: #9ac2c9ff;
+--cadet-grey: #8aa1b1ff;
+--rifle-green: #4a5043ff;
+--sunglow: #ffcb47ff;
+
+/*Global styles
+-------------------------------*/
+
+body {
+    color: #e8985eff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    
+}
+main {
+    font-family: 'Abel', sans-serif;
+}
+img {
+    width: 300px;
+}
+a {
+    color: #ffcb47ff;
+}
+a:hover {
+    text-decoration: none;
+}
+h1 {
+    line-height: 1;
+}
+h2 {
+    font-size: 45px;
+}
+h1, h2 {
+    font-family: 'Sacramento', cursive;
+    margin: 0;
+}
+.wrap {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+
+/*Profile
+-------------------------------*/
+header {
+    background: #b9d8c2ff;
+    color: #4a5043f;
+}
+header h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 450%;
+    color: darkblue;
+}
+
+/*Project
+-------------------------------*/
+.project {
+    background: #9ac2c9ff;
+}
+.project a {
+    color: #4a5043ff;
+}
+.project .btn {
+    color: #ffcb47ff;
+    background: #4a5043ff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.project .btn:hover {
+    background: rgba(47, 48, 97, 80%);
+}
+.project-item {
+    overflow: hidden;
+    border-bottom: 2px dashed #ffcb47ff;
+    padding: 25px 0;
+}
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
+}
+
+/*Work Experience
+-------------------------------*/
+.work-experience {
+    background: #8aa1b1ff;
+}
+
+/*Education
+-------------------------------*/
+
+
+/*Contact Info
+-------------------------------*/
+footer {
+    background: #4a5043ff;
+    color: #9ac2c9ff;
+
+}
